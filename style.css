@@ -1,0 +1,46 @@
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* li stilini KAPATTIK */
+/*
+li {
+  list-style-type: none;
+}
+*/
+
+/* nav */
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+/* nav içindeki SADECE image */
+nav img {
+  width: 10%;
+}
+
+/* grid */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+/* flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
